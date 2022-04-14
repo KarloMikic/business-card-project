@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+.whole-card{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -moz-transform: translate(-50%, -50%); /* Firefox */
+    -webkit-transform: translate(-50%, -50%); /* Safari and Chrome*/
+    -o-transform: translate(-50%, -50%); /* Opera */
+    transform: translate(-50%, -50%);
+    max-width: 280px;
+
+}
+body{
+    margin: 0;
+    background-color: #1A1B21;
+    max-width: 280px;
+}
+
+.info{
+ text-align: center;
+}
+
+.profile-pic{
+    max-width: 280px;
+    justify-self: stretch;
+}
+
+.info--name{
+    color: #FFFFFF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: -12px;
+}
+.info--profession{
+    color: #F3BF99;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    margin-bottom: -12px;
+}
+.info--website{
+    color: #F5F5F5
+}
+
+.linkedin-icon{
+    margin-right: 15px;
+}
+
+.about, .interests{
+    margin: 25px;
+    color: #DCDCDC;
+    font-size: 14px
+}
+.about--h3, .interests--h3{
+     color: #F3BF99;
+     margin-bottom: -10px;
+}
+
+.footer{
+    min-height: 70px;
+    background-color: #161619;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer img{
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
